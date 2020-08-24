@@ -10,7 +10,7 @@ Quantity:<input type="number" min="0" v-model="quantity"  @click="Cal">
 Total:<input type="text" :value="total">
 Paid:<input type="text" v-model="paid" @keyup="DueCal">
 
-{{status}}
+<p>{{status}}</p>
 
 </div>
     
